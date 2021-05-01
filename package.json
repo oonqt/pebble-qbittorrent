@@ -1,0 +1,41 @@
+{
+  "name": "pebble-qbittorrent",
+  "author": "JSystems",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebblejs": "^1.0.0",
+    "tough-cookie": "^4.0.0"
+  },
+  "pebble": {
+    "displayName": "qBittorrent Remote",
+    "uuid": "5cd9b07b-33ed-41b5-bd5d-ea802007f705",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "png",
+          "name": "QBIT_LOGO",
+          "file": "images/qbit_logo.png",
+          "menuIcon": true
+        }
+      ]
+    }
+  }
+}
